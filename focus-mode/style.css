@@ -1,0 +1,105 @@
+html {
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 250px;
+  border: none;
+  height: 1px;
+  margin-top: 20px;
+  background-color: rgb(114, 126, 139);
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(5, 40, 52);
+  color: white;
+  height: 500px;
+  background-image: url("background_pic.png");
+  background-repeat: no-repeat;
+}
+
+
+.input-box{
+  width:200px;
+  height: 30px;
+  border: 1px solid rgb(114, 126, 139);
+  border-radius: 20px;
+  background-color: rgb(5, 40, 52);
+  color: white;
+  padding-left: 20px;  
+}
+
+input[type='checkbox'] {
+  background-color: transparent;
+  margin: 5px;
+  width: 25px;
+  color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  accent-color: rgb(5, 40, 52);
+  cursor: pointer;
+}
+
+span{
+  text-align: center;
+}
+
+.submit{
+  height: 34px;
+  border: 1px solid rgb(114, 126, 139);
+  background-color: rgb(5, 40, 52);
+  border-left: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 0;
+}
+.sendIcon{
+  width: 20px;
+  display: block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.todobox{
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+
+
